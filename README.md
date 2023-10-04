@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import incrmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-min@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-min/tags). For example,
+
+```javascript
 import incrmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-min@v0.1.1-deno/mod.js';
 ```
 
@@ -95,7 +100,7 @@ min = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-min@v0.1.1-deno/mod.js';
+import incrmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-min@deno/mod.js';
 
 var accumulator;
 var v;
