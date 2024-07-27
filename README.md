@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import incrmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-min@deno/mod.js';
+import incrmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-min@v0.2.2-deno/mod.js';
 ```
 
 #### incrmin()
@@ -95,7 +95,7 @@ min = accumulator();
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import incrmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-min@deno/mod.js';
+import incrmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-min@v0.2.2-deno/mod.js';
 
 var accumulator;
 var v;
